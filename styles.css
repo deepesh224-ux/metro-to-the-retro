@@ -1,0 +1,67 @@
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed; /* Optional: makes the footer stick to the bottom */
+    width: 100%;
+    bottom: 0;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main Content Styling */
+main {
+    padding: 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+main {
+    padding: 20px;
+    background-color: #f4f4f4;
+    height: 400px; /* Set a fixed height for demonstration */
+    overflow-y: auto; /* Enables vertical scrolling if content exceeds height */
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+    border: 1px solid #ddd; /* Optional: Adds a border for better visibility */
+}
+.overflow-container{
+     width: 100%; /* Full width of the container */
+        height: 300px; /* Set the height */
+        overflow-x: auto; /* Enables horizontal scrolling */
+        overflow-y: hidden; /* Disables vertical scrolling */
+        border: 2px solid #ccc;
+        background-color: #f9f9f9;
+        padding: 10px;
+}
+    
+.overflow-container img {
+    height: 100%; /* Ensures the image height fits the container */
+    display: inline-block; /* Allows horizontal scrolling */
+}
