@@ -1,0 +1,178 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #121212;
+    color: white;
+    height: 100%; 
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffcc00;
+}
+header .logo span {
+    color: #ffffff;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+header nav ul li {
+    margin: 0 15px;
+}
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+header nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('https://wallpapers.com/images/hd/retro-gaming-2844-x-1600-wallpaper-5ivjuivwcj9y7ysp.jpg') no-repeat center center/cover;
+}
+.hero h1 {
+    font-size: 50px;
+    color: #ffcc00;
+}
+.hero p {
+    font-size: 20px;
+}
+.hero .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background: #ff5722;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.hero .btn:hover {
+    background: #e64a19;
+}
+
+/* Game Section */
+.games-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+.games-section h2 {
+    font-size: 36px;
+    color: #ffcc00;
+    margin-bottom: 20px;
+}
+.game-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.game-card {
+    background: #222;
+    border: 1px solid #444;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+}
+.game-card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+.game-card h3 {
+    margin-top: 10px;
+    color: #ffcc00;
+}
+
+/* About Section */
+.about-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+.about-section h2 {
+    font-size: 36px;
+    color: #ffcc00;
+}
+.about-section p {
+    font-size: 18px;
+}
+.team-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #1e1e1e;
+    color: white;
+}
+.team-section h2 {
+    font-size: 36px;
+    color: #ffcc00;
+    margin-bottom: 20px;
+}
+.team-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.team-card {
+    background: #222;
+    border: 1px solid #444;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+.team-card:hover {
+    transform: translateY(-10px);
+}
+.team-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 3px solid #ffcc00;
+}
+.team-card h3 {
+    font-size: 20px;
+    color: #ffcc00;
+    margin-bottom: 10px;
+}
+.team-card p {
+    font-size: 16px;
+    color: #ddd;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+    width: 100%;
+    position: relative;
+}
+.team-section a{
+    text-decoration: none;
+}
